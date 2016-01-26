@@ -1,0 +1,67 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:10:"yiiVersion";s:6:"1.1.16";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.16";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:3:"UTC";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:0:{}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:2:{i:0;s:74:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/";i:1;s:76:"language=9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs%3A2%3A%22ru%22%3B; path=/";}s:12:"Content-type";s:23:"text/html;charset=UTF-8";}s:5:"route";s:28:"install/default/requirements";s:6:"action";s:39:"DefaultController::actionRequirements()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:33:{s:4:"USER";s:7:"vagrant";s:4:"HOME";s:13:"/home/vagrant";s:11:"HTTP_COOKIE";s:217:"PHPSESSID=h6ksvnut9jfmv8c2k5hn2n5sr5; YUPE_TOKEN=d7b4fb5bc2b41cfedb96badd83c356fe320a47b3s%3A40%3A%223c284076d96ced8655a38d63cf71c777619fe892%22%3B; language=9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs%3A2%3A%22ru%22%3B";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:12:"HTTP_REFERER";s:48:"http://yupe-test.app/install/default/environment";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"HTTP_HOST";s:13:"yupe-test.app";s:15:"REDIRECT_STATUS";s:3:"200";s:11:"SERVER_NAME";s:13:"yupe-test.app";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:13:"192.168.10.10";s:11:"REMOTE_PORT";s:5:"54091";s:11:"REMOTE_ADDR";s:12:"192.168.10.1";s:15:"SERVER_SOFTWARE";s:11:"nginx/1.9.7";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:13:"DOCUMENT_ROOT";s:35:"/home/vagrant/Code/yupe-test/public";s:12:"DOCUMENT_URI";s:10:"/index.php";s:11:"REQUEST_URI";s:29:"/install/default/requirements";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:45:"/home/vagrant/Code/yupe-test/public/index.php";s:14:"CONTENT_LENGTH";s:0:"";s:12:"CONTENT_TYPE";s:0:"";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1453808748.0743999;s:12:"REQUEST_TIME";i:1453808748;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"h6ksvnut9jfmv8c2k5hn2n5sr5";s:10:"YUPE_TOKEN";s:88:"d7b4fb5bc2b41cfedb96badd83c356fe320a47b3s:40:"3c284076d96ced8655a38d63cf71c777619fe892";";s:8:"language";s:49:"9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:40:"6221befc887a2233a26edccac03aa387language";s:2:"ru";s:40:"bad75a34488177fd21371cfd5e89a543language";s:2:"ru";s:11:"InstallForm";a:3:{s:13:"indexFinished";b:1;s:19:"environmentFinished";b:1;s:20:"requirementsFinished";b:1;}}}s:3:"log";a:1:{s:8:"messages";a:25:{i:0;a:4:{i:0;s:199:"Loading "urlManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.1748829;}i:1;a:4:{i:0;s:326:"Loading "yupe" module
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (85)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (39)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453808748.181937;}i:2;a:4:{i:0;s:284:"Loading "db" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.1898351;}i:3;a:4:{i:0;s:295:"Loading "cache" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.1961851;}i:4;a:4:{i:0;s:297:"Saving "Yii.CUrlManager.rules" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808748.2092741;}i:5;a:4:{i:0;s:91:"Loading "debug" application component
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.2225969;}i:6;a:4:{i:0;s:297:"Loading "log" application component
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.250792;}i:7;a:4:{i:0;s:282:"Loading "request" application component
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.263998;}i:8;a:4:{i:0;s:95:"Loading "bootstrap" application component
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.2692361;}i:9;a:4:{i:0;s:288:"Loading "clientScript" application component
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.2744811;}i:10;a:4:{i:0;s:329:"Loading "assetManager" application component
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (260)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.278873;}i:11;a:4:{i:0;s:356:"Loading "securityManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.29175;}i:12;a:4:{i:0;s:355:"Loading "statePersister" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.294111;}i:13;a:4:{i:0;s:403:"Saving "Yii.CStatePersister./home/vagrant/Code/yupe-test/protected/runtime/state.bin" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808748.3082659;}i:14;a:4:{i:0;s:297:"Loading "user" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.3192899;}i:15;a:4:{i:0;s:300:"Loading "session" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.32197;}i:16;a:4:{i:0;s:78:"Loading "install" module
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453808748.323926;}i:17;a:4:{i:0;s:294:"Loading "bootstrap" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.3572581;}i:18;a:4:{i:0;s:293:"Loading "messages" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.3584089;}i:19;a:4:{i:0;s:297:"Loading "errorHandler" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.36937;}i:20;a:4:{i:0;s:297:"Loading "eventManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.3752069;}i:21;a:4:{i:0;s:166:"Flushing cache
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (100)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808748.408782;}i:22;a:4:{i:0;s:196:"Loading "viewRenderer" application component
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (483)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.4149351;}i:23;a:4:{i:0;s:325:"Loading "widgetFactory" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe-test/protected/modules/install/views/default/requirements.php (18)
+in /home/vagrant/Code/yupe-test/protected/modules/install/views/default/_view.php (14)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.5111761;}i:24;a:4:{i:0;s:318:"Loading "coreMessages" application component
+in /home/vagrant/Code/yupe-test/protected/modules/install/views/layouts/main.php (147)
+in /home/vagrant/Code/yupe-test/protected/modules/install/views/layouts/column2.php (40)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (483)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808748.5923679;}}}s:9:"profiling";a:3:{s:6:"memory";i:1688984;s:4:"time";d:0.53569984436035156;s:8:"messages";a:0:{}}s:2:"db";a:2:{s:8:"messages";a:0:{}s:11:"connections";a:0:{}}s:7:"summary";a:7:{s:3:"tag";s:13:"56a75c6c39d65";s:3:"url";s:49:"http://yupe-test.app/install/default/requirements";s:4:"ajax";b:0;s:6:"method";s:3:"GET";s:4:"code";i:200;s:2:"ip";s:12:"192.168.10.1";s:4:"time";i:1453808748;}}

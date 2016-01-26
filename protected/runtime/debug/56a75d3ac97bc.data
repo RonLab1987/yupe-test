@@ -1,0 +1,1300 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:10:"yiiVersion";s:6:"1.1.16";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.16";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:3:"UTC";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:0:{}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:2:{i:0;s:74:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/";i:1;s:76:"language=9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs%3A2%3A%22ru%22%3B; path=/";}s:8:"Location";s:51:"http://yupe-test.app/install/default/modulesinstall";}s:5:"route";s:30:"install/default/modulesinstall";s:6:"action";s:41:"DefaultController::actionModulesinstall()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:37:{s:4:"USER";s:7:"vagrant";s:4:"HOME";s:13:"/home/vagrant";s:11:"HTTP_COOKIE";s:217:"PHPSESSID=h6ksvnut9jfmv8c2k5hn2n5sr5; YUPE_TOKEN=37646c5a9d56ecb7198f073087bb4ea5a74a00d8s%3A40%3A%220d5d6357ab885b3168e947888cc4b6f2505e0a30%22%3B; language=9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs%3A2%3A%22ru%22%3B";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:51:"http://yupe-test.app/install/default/modulesinstall";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:11:"HTTP_ORIGIN";s:20:"http://yupe-test.app";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:19:"HTTP_CONTENT_LENGTH";s:3:"341";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"HTTP_HOST";s:13:"yupe-test.app";s:15:"REDIRECT_STATUS";s:3:"200";s:11:"SERVER_NAME";s:13:"yupe-test.app";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:13:"192.168.10.10";s:11:"REMOTE_PORT";s:5:"54104";s:11:"REMOTE_ADDR";s:12:"192.168.10.1";s:15:"SERVER_SOFTWARE";s:11:"nginx/1.9.7";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:13:"DOCUMENT_ROOT";s:35:"/home/vagrant/Code/yupe-test/public";s:12:"DOCUMENT_URI";s:10:"/index.php";s:11:"REQUEST_URI";s:31:"/install/default/modulesinstall";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:45:"/home/vagrant/Code/yupe-test/public/index.php";s:14:"CONTENT_LENGTH";s:3:"341";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1453808954.5556901;s:12:"REQUEST_TIME";i:1453808954;}s:3:"GET";a:0:{}s:4:"POST";a:19:{s:10:"YUPE_TOKEN";s:40:"0d5d6357ab885b3168e947888cc4b6f2505e0a30";s:11:"module_blog";s:1:"1";s:15:"module_callback";s:1:"1";s:15:"module_category";s:1:"1";s:14:"module_comment";s:1:"1";s:19:"module_contentblock";s:1:"1";s:17:"module_dictionary";s:1:"1";s:11:"module_docs";s:1:"1";s:15:"module_feedback";s:1:"1";s:14:"module_gallery";s:1:"1";s:15:"module_homepage";s:1:"1";s:12:"module_image";s:1:"1";s:11:"module_mail";s:1:"1";s:11:"module_menu";s:1:"1";s:11:"module_news";s:1:"1";s:11:"module_page";s:1:"1";s:12:"module_store";s:1:"1";s:11:"module_user";s:1:"1";s:11:"module_yupe";s:1:"1";}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"h6ksvnut9jfmv8c2k5hn2n5sr5";s:10:"YUPE_TOKEN";s:88:"37646c5a9d56ecb7198f073087bb4ea5a74a00d8s:40:"0d5d6357ab885b3168e947888cc4b6f2505e0a30";";s:8:"language";s:49:"9101917f9e3fa97e311c4dfa9a9f2aed7aa812dcs:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:40:"6221befc887a2233a26edccac03aa387language";s:2:"ru";s:40:"bad75a34488177fd21371cfd5e89a543language";s:2:"ru";s:11:"InstallForm";a:10:{s:13:"indexFinished";b:1;s:19:"environmentFinished";b:1;s:20:"requirementsFinished";b:1;s:10:"dbSettings";a:20:{s:4:"host";s:9:"127.0.0.1";s:4:"port";s:4:"3306";s:6:"socket";s:0:"";s:6:"dbName";s:9:"yupe-test";s:8:"createDb";s:1:"0";s:6:"dbUser";s:9:"yupe-test";s:10:"dbPassword";s:9:"yupe-test";s:11:"tablePrefix";s:5:"yupe_";s:6:"dbType";s:1:"1";s:8:"userName";N;s:12:"userPassword";N;s:9:"cPassword";N;s:9:"userEmail";N;s:8:"siteName";s:7:"Юпи!";s:15:"siteDescription";s:82:"Юпи! - самый простой способ создать сайт на Yii!";s:12:"siteKeyWords";s:26:"Юпи!, yupe, цмс, yii";s:9:"siteEmail";N;s:5:"theme";s:7:"default";s:12:"backendTheme";s:0:"";s:5:"email";N;}s:14:"dbSettingsStep";b:0;s:14:"dbSettingsFile";b:1;s:18:"dbsettingsFinished";b:1;s:15:"moduleToInstall";a:19:{s:10:"YUPE_TOKEN";s:40:"0d5d6357ab885b3168e947888cc4b6f2505e0a30";s:11:"module_blog";s:1:"1";s:15:"module_callback";s:1:"1";s:15:"module_category";s:1:"1";s:14:"module_comment";s:1:"1";s:19:"module_contentblock";s:1:"1";s:17:"module_dictionary";s:1:"1";s:11:"module_docs";s:1:"1";s:15:"module_feedback";s:1:"1";s:14:"module_gallery";s:1:"1";s:15:"module_homepage";s:1:"1";s:12:"module_image";s:1:"1";s:11:"module_mail";s:1:"1";s:11:"module_menu";s:1:"1";s:11:"module_news";s:1:"1";s:11:"module_page";s:1:"1";s:12:"module_store";s:1:"1";s:11:"module_user";s:1:"1";s:11:"module_yupe";s:1:"1";}s:18:"modulesInstallStep";b:1;s:22:"modulesinstallFinished";b:1;}}}s:3:"log";a:1:{s:8:"messages";a:164:{i:0;a:4:{i:0;s:199:"Loading "urlManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.6632831;}i:1;a:4:{i:0;s:326:"Loading "yupe" module
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (85)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (39)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453808954.668726;}i:2;a:4:{i:0;s:284:"Loading "db" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.677418;}i:3;a:4:{i:0;s:271:"Opening DB connection
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1453808954.6804979;}i:4;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808954.7070501;}i:5;a:4:{i:0;s:287:"Loading "cache" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.7070739;}i:6;a:4:{i:0;s:294:"Loading "coreMessages" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.7174101;}i:7;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808954.7274561;}i:8;a:4:{i:0;s:297:"Saving "Yii.CUrlManager.rules" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808954.732048;}i:9;a:4:{i:0;s:91:"Loading "debug" application component
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.809027;}i:10;a:4:{i:0;s:297:"Loading "log" application component
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.8398039;}i:11;a:4:{i:0;s:282:"Loading "request" application component
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/vagrant/Code/yupe-test/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.850992;}i:12;a:4:{i:0;s:95:"Loading "bootstrap" application component
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.8568449;}i:13;a:4:{i:0;s:288:"Loading "clientScript" application component
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.8649991;}i:14;a:4:{i:0;s:329:"Loading "assetManager" application component
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/vagrant/Code/yupe-test/vendor/clevertech/yii-booster/src/components/Booster.php (260)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.8713541;}i:15;a:4:{i:0;s:356:"Loading "securityManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.885931;}i:16;a:4:{i:0;s:355:"Loading "statePersister" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.8880241;}i:17;a:4:{i:0;s:403:"Saving "Yii.CStatePersister./home/vagrant/Code/yupe-test/protected/runtime/state.bin" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808954.9015009;}i:18;a:4:{i:0;s:297:"Loading "user" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.912369;}i:19;a:4:{i:0;s:300:"Loading "session" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.916126;}i:20;a:4:{i:0;s:78:"Loading "install" module
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453808954.918617;}i:21;a:4:{i:0;s:294:"Loading "bootstrap" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.9678891;}i:22;a:4:{i:0;s:293:"Loading "messages" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.9694669;}i:23;a:4:{i:0;s:297:"Loading "errorHandler" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.9739981;}i:24;a:4:{i:0;s:297:"Loading "eventManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (44)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808954.9799941;}i:25;a:4:{i:0;s:166:"Flushing cache
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (100)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.007648;}i:26;a:4:{i:0;s:197:"Loading "moduleManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808955.025347;}i:27;a:4:{i:0;s:287:"Loading "configManager" application component
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (261)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453808955.03161;}i:28;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.0405221;}i:29;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.0520439;}i:30;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.0531459;}i:31;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.055856;}i:32;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.058687;}i:33;a:4:{i:0;s:505:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.0687389;}i:34;a:4:{i:0;s:704:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.0698979;}i:35;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.0717981;}i:36;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.0745361;}i:37;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/cart/CartModule.php (129)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.083936;}i:38;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/cart/CartModule.php (129)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.0847571;}i:39;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.0872681;}i:40;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.089896;}i:41;a:4:{i:0;s:505:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.100673;}i:42;a:4:{i:0;s:704:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1019859;}i:43;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.1048541;}i:44;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.107506;}i:45;a:4:{i:0;s:502:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.121316;}i:46;a:4:{i:0;s:701:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1223071;}i:47;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.124419;}i:48;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.127398;}i:49;a:4:{i:0;s:516:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1375799;}i:50;a:4:{i:0;s:715:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.138726;}i:51;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.140491;}i:52;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.143455;}i:53;a:4:{i:0;s:499:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/coupon/CouponModule.php (126)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1524041;}i:54;a:4:{i:0;s:698:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/coupon/CouponModule.php (126)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1533251;}i:55;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.1553631;}i:56;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.158824;}i:57;a:4:{i:0;s:505:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/delivery/DeliveryModule.php (126)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.168324;}i:58;a:4:{i:0;s:704:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/delivery/DeliveryModule.php (126)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.169553;}i:59;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.172049;}i:60;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.1746831;}i:61;a:4:{i:0;s:511:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.183203;}i:62;a:4:{i:0;s:710:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.1840601;}i:63;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.1864991;}i:64;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.1900289;}i:65;a:4:{i:0;s:507:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (361)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.198396;}i:66;a:4:{i:0;s:706:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (361)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.199528;}i:67;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2020569;}i:68;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2058549;}i:69;a:4:{i:0;s:504:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/favorite/FavoriteModule.php (18)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.214936;}i:70;a:4:{i:0;s:703:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/favorite/FavoriteModule.php (18)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.2160039;}i:71;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2181389;}i:72;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2218471;}i:73;a:4:{i:0;s:505:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.2306001;}i:74;a:4:{i:0;s:704:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.231482;}i:75;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.233212;}i:76;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.236222;}i:77;a:4:{i:0;s:502:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/gallery/GalleryModule.php (119)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.244462;}i:78;a:4:{i:0;s:701:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/gallery/GalleryModule.php (119)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.245604;}i:79;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2477601;}i:80;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2515039;}i:81;a:4:{i:0;s:505:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.2607241;}i:82;a:4:{i:0;s:704:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.2618301;}i:83;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.263911;}i:84;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.266516;}i:85;a:4:{i:0;s:496:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.275533;}i:86;a:4:{i:0;s:695:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/image/ImageModule.php (298)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.2765739;}i:87;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2786269;}i:88;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2835331;}i:89;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2863669;}i:90;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.295542;}i:91;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/mail/MailModule.php (180)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.296454;}i:92;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.2988319;}i:93;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.30181;}i:94;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.312664;}i:95;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3138151;}i:96;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.316186;}i:97;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.318902;}i:98;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3281159;}i:99;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/news/NewsModule.php (301)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3291581;}i:100;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.331181;}i:101;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.3336949;}i:102;a:4:{i:0;s:498:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/notify/NotifyModule.php (38)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3430951;}i:103;a:4:{i:0;s:697:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/notify/NotifyModule.php (38)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3446479;}i:104;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.347327;}i:105;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.349684;}i:106;a:4:{i:0;s:496:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/order/OrderModule.php (214)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3586161;}i:107;a:4:{i:0;s:695:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/order/OrderModule.php (214)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.359664;}i:108;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.3615179;}i:109;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.364327;}i:110;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3739991;}i:111;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/page/PageModule.php (130)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.3749349;}i:112;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.3777499;}i:113;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.381458;}i:114;a:4:{i:0;s:502:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/payment/PaymentModule.php (132)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.39065;}i:115;a:4:{i:0;s:701:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/payment/PaymentModule.php (132)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.391552;}i:116;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.3934679;}i:117;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.39658;}i:118;a:4:{i:0;s:496:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/queue/QueueModule.php (117)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4070139;}i:119;a:4:{i:0;s:695:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/queue/QueueModule.php (117)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4079621;}i:120;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.409796;}i:121;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.412421;}i:122;a:4:{i:0;s:492:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/rbac/RbacModule.php (27)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4220569;}i:123;a:4:{i:0;s:691:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/rbac/RbacModule.php (27)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.423167;}i:124;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4254489;}i:125;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4289269;}i:126;a:4:{i:0;s:508:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/robokassa/RobokassaModule.php (116)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4402809;}i:127;a:4:{i:0;s:707:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/robokassa/RobokassaModule.php (116)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.44135;}i:128;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4432559;}i:129;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4470451;}i:130;a:4:{i:0;s:501:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.456017;}i:131;a:4:{i:0;s:700:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4569499;}i:132;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4595251;}i:133;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.462631;}i:134;a:4:{i:0;s:499:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/social/SocialModule.php (137)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4733181;}i:135;a:4:{i:0;s:698:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/social/SocialModule.php (137)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4742351;}i:136;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4760151;}i:137;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4788959;}i:138;a:4:{i:0;s:496:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/store/StoreModule.php (372)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.488436;}i:139;a:4:{i:0;s:695:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/store/StoreModule.php (372)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.4895029;}i:140;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4914041;}i:141;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.4952209;}i:142;a:4:{i:0;s:499:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/update/UpdateModule.php (118)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5056729;}i:143;a:4:{i:0;s:698:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/update/UpdateModule.php (118)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5066161;}i:144;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5084641;}i:145;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5116839;}i:146;a:4:{i:0;s:493:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.521503;}i:147;a:4:{i:0;s:692:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/user/UserModule.php (346)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5227251;}i:148;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5247171;}i:149;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5296099;}i:150;a:4:{i:0;s:517:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yandexmarket/YandexMarketModule.php (137)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5400071;}i:151;a:4:{i:0;s:716:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yandexmarket/YandexMarketModule.php (137)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.541182;}i:152;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5440691;}i:153;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.547241;}i:154;a:4:{i:0;s:514:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yandexmoney/YandexMoneyModule.php (116)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5572309;}i:155;a:4:{i:0;s:713:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/yandexmoney/YandexMoneyModule.php (116)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5588131;}i:156;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5623839;}i:157;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.566994;}i:158;a:4:{i:0;s:306:"Saving "tmpImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (359)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (298)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5710609;}i:159;a:4:{i:0;s:511:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/zendsearch/ZendSearchModule.php (109)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.581969;}i:160;a:4:{i:0;s:710:"Не удалось выполнить CDbCommand::fetchAll(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yupe-test.yupe_yupe_settings' doesn't exist. Выполнявшийся SQL-запрос: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1.
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe-test/protected/modules/zendsearch/ZendSearchModule.php (109)";i:1;s:5:"error";i:2;s:20:"system.db.CDbCommand";i:3;d:1453808955.5831029;}i:161;a:4:{i:0;s:273:"Serving "tmpImports" from cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (299)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.585813;}i:162;a:4:{i:0;s:275:"Saving "modulesDisabled" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (319)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.5988691;}i:163;a:4:{i:0;s:274:"Saving "pathForImports" to cache
+in /home/vagrant/Code/yupe-test/protected/modules/yupe/components/ModuleManager.php (320)
+in /home/vagrant/Code/yupe-test/protected/modules/install/controllers/DefaultController.php (771)
+in /home/vagrant/Code/yupe-test/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453808955.61114;}}}s:9:"profiling";a:3:{s:6:"memory";i:2696624;s:4:"time";d:1.0531718730926514;s:8:"messages";a:68:{i:0;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808954.71698;}i:1;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808954.717375;}i:2;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.0527279;}i:3;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.053112;}i:4;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.069418;}i:5;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.0698569;}i:6;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.08441;}i:7;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.084723;}i:8;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.10147;}i:9;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.101938;}i:10;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1219511;}i:11;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1222739;}i:12;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.13834;}i:13;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.138685;}i:14;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.152983;}i:15;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.153295;}i:16;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1688869;}i:17;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1695001;}i:18;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1837101;}i:19;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.184032;}i:20;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1990919;}i:21;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1994829;}i:22;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2155869;}i:23;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2159619;}i:24;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2311211;}i:25;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.231452;}i:26;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.245131;}i:27;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2455571;}i:28;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.261384;}i:29;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2617891;}i:30;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2761731;}i:31;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.276516;}i:32;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.296051;}i:33;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.296418;}i:34;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.313391;}i:35;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3137741;}i:36;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.328733;}i:37;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3291161;}i:38;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.344008;}i:39;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3445041;}i:40;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.359256;}i:41;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3596289;}i:42;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.374536;}i:43;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3748879;}i:44;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3911779;}i:45;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.39152;}i:46;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4075489;}i:47;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.407927;}i:48;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4227669;}i:49;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4231279;}i:50;a:4:{i:0;s:268:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4409499;}i:51;a:4:{i:0;s:266:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4413121;}i:52;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.456568;}i:53;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4569099;}i:54;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.473839;}i:55;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.474201;}i:56;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.489069;}i:57;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.489455;}i:58;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5061951;}i:59;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5065811;}i:60;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5222659;}i:61;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5226779;}i:62;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.540771;}i:63;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5411429;}i:64;a:4:{i:0;s:270:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5582931;}i:65;a:4:{i:0;s:268:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.558744;}i:66;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5827079;}i:67;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5830669;}}}s:2:"db";a:2:{s:8:"messages";a:68:{i:0;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808954.71698;}i:1;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808954.717375;}i:2;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.0527279;}i:3;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.053112;}i:4;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.069418;}i:5;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.0698569;}i:6;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.08441;}i:7;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='cart', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.084723;}i:8;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.10147;}i:9;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.101938;}i:10;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1219511;}i:11;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1222739;}i:12;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.13834;}i:13;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.138685;}i:14;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.152983;}i:15;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='coupon', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.153295;}i:16;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1688869;}i:17;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='delivery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1695001;}i:18;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1837101;}i:19;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.184032;}i:20;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1990919;}i:21;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='docs', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.1994829;}i:22;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2155869;}i:23;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='favorite', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2159619;}i:24;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2311211;}i:25;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.231452;}i:26;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.245131;}i:27;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='gallery', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2455571;}i:28;a:4:{i:0;s:267:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.261384;}i:29;a:4:{i:0;s:265:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2617891;}i:30;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.2761731;}i:31;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.276516;}i:32;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.296051;}i:33;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.296418;}i:34;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.313391;}i:35;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3137741;}i:36;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.328733;}i:37;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3291161;}i:38;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.344008;}i:39;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='notify', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3445041;}i:40;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.359256;}i:41;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='order', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3596289;}i:42;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.374536;}i:43;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3748879;}i:44;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.3911779;}i:45;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='payment', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.39152;}i:46;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4075489;}i:47;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='queue', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.407927;}i:48;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4227669;}i:49;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='rbac', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4231279;}i:50;a:4:{i:0;s:268:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4409499;}i:51;a:4:{i:0;s:266:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='robokassa', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4413121;}i:52;a:4:{i:0;s:266:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.456568;}i:53;a:4:{i:0;s:264:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.4569099;}i:54;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.473839;}i:55;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='social', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.474201;}i:56;a:4:{i:0;s:264:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.489069;}i:57;a:4:{i:0;s:262:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='store', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.489455;}i:58;a:4:{i:0;s:265:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5061951;}i:59;a:4:{i:0;s:263:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='update', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5065811;}i:60;a:4:{i:0;s:263:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5222659;}i:61;a:4:{i:0;s:261:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5226779;}i:62;a:4:{i:0;s:271:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.540771;}i:63;a:4:{i:0;s:269:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmarket', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5411429;}i:64;a:4:{i:0;s:270:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5582931;}i:65;a:4:{i:0;s:268:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yandexmoney', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.558744;}i:66;a:4:{i:0;s:269:"begin:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5827079;}i:67;a:4:{i:0;s:267:"end:system.db.CDbCommand.query(
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='zendsearch', :type=1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453808955.5830669;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:6:"5.7.10";s:4:"info";s:136:"Uptime: 9625  Threads: 1  Questions: 2082  Slow queries: 0  Opens: 500  Flush tables: 1  Open tables: 177  Queries per second avg: 0.216";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"56a75d3ac97bc";s:3:"url";s:51:"http://yupe-test.app/install/default/modulesinstall";s:4:"ajax";b:0;s:6:"method";s:4:"POST";s:4:"code";i:302;s:2:"ip";s:12:"192.168.10.1";s:4:"time";i:1453808955;}}
