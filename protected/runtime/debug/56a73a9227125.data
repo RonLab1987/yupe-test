@@ -1,0 +1,755 @@
+a:6:{s:6:"config";a:4:{s:10:"phpVersion";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:10:"yiiVersion";s:6:"1.1.16";s:11:"application";a:4:{s:3:"yii";s:6:"1.1.16";s:4:"name";s:5:"Yupe!";s:8:"timezone";s:3:"UTC";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:29:"7.0.1-1+deb.sury.org~trusty+2";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}}s:7:"request";a:13:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:0:{}s:15:"responseHeaders";a:5:{s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";a:2:{i:0;s:74:"language=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/";i:1;s:76:"language=6072666b3c3743dce1e1d53e5b1c65584b46a7c7s%3A2%3A%22ru%22%3B; path=/";}s:12:"Content-type";s:23:"text/html;charset=UTF-8";}s:5:"route";s:18:"yupe/backend/index";s:6:"action";s:32:"BackendController::actionIndex()";s:12:"actionParams";a:0:{}s:6:"SERVER";a:33:{s:4:"USER";s:7:"vagrant";s:4:"HOME";s:13:"/home/vagrant";s:11:"HTTP_COOKIE";s:296:"YUPE_TOKEN=c86a1483c3c8665d9f8da61cb04ce0266bc2234es%3A40%3A%228b3340912b0ea40991dd8fabb2a4c97dd553fedc%22%3B; 5f958e8324acfd79297bde4c8fa6f5ed=70f7db5723b6d5b3e81dac16c538cf0e665bcdd8N%3B; PHPSESSID=ijaui8f6nmupnun9sk8qncf0b0; language=6072666b3c3743dce1e1d53e5b1c65584b46a7c7s%3A2%3A%22ru%22%3B";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:12:"HTTP_REFERER";s:21:"http://yupe.app/login";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:9:"HTTP_HOST";s:8:"yupe.app";s:15:"REDIRECT_STATUS";s:3:"200";s:11:"SERVER_NAME";s:8:"yupe.app";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:13:"192.168.10.10";s:11:"REMOTE_PORT";s:5:"52325";s:11:"REMOTE_ADDR";s:12:"192.168.10.1";s:15:"SERVER_SOFTWARE";s:11:"nginx/1.9.7";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:13:"DOCUMENT_ROOT";s:30:"/home/vagrant/Code/yupe/public";s:12:"DOCUMENT_URI";s:10:"/index.php";s:11:"REQUEST_URI";s:8:"/backend";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:40:"/home/vagrant/Code/yupe/public/index.php";s:14:"CONTENT_LENGTH";s:0:"";s:12:"CONTENT_TYPE";s:0:"";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1453800082.0411489;s:12:"REQUEST_TIME";i:1453800082;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:4:{s:10:"YUPE_TOKEN";s:88:"c86a1483c3c8665d9f8da61cb04ce0266bc2234es:40:"8b3340912b0ea40991dd8fabb2a4c97dd553fedc";";s:32:"5f958e8324acfd79297bde4c8fa6f5ed";s:42:"70f7db5723b6d5b3e81dac16c538cf0e665bcdd8N;";s:9:"PHPSESSID";s:26:"ijaui8f6nmupnun9sk8qncf0b0";s:8:"language";s:49:"6072666b3c3743dce1e1d53e5b1c65584b46a7c7s:2:"ru";";}s:5:"FILES";a:0:{}s:7:"SESSION";a:12:{s:40:"5f958e8324acfd79297bde4c8fa6f5edlanguage";s:2:"ru";s:34:"5f958e8324acfd79297bde4c8fa6f5edid";s:1:"1";s:44:"5f958e8324acfd79297bde4c8fa6f5edaccess_level";s:1:"1";s:41:"5f958e8324acfd79297bde4c8fa6f5ednick_name";s:5:"Roman";s:43:"5f958e8324acfd79297bde4c8fa6f5edmodSettings";a:0:{}s:36:"5f958e8324acfd79297bde4c8fa6f5ed__id";s:1:"1";s:38:"5f958e8324acfd79297bde4c8fa6f5ed__name";s:5:"Roman";s:40:"5f958e8324acfd79297bde4c8fa6f5ed__states";a:0:{}s:49:"5f958e8324acfd79297bde4c8fa6f5edadm_check_attempt";i:6;s:45:"5f958e8324acfd79297bde4c8fa6f5edbadLoginCount";i:0;s:41:"5f958e8324acfd79297bde4c8fa6f5ed__timeout";i:1453862482;s:40:"5f958e8324acfd79297bde4c8fa6f5edfullName";s:5:"Roman";}}s:3:"log";a:1:{s:8:"messages";a:213:{i:0;a:4:{i:0;s:189:"Loading "urlManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.099308;}i:1;a:4:{i:0;s:311:"Loading "yupe" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LangUrlManager.php (85)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LangUrlManager.php (39)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.1024239;}i:2;a:4:{i:0;s:269:"Loading "db" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.105886;}i:3;a:4:{i:0;s:256:"Opening DB connection
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1031)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:23:"system.db.CDbConnection";i:3;d:1453800082.1067309;}i:4;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='yupe', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.1284471;}i:5;a:4:{i:0;s:272:"Loading "cache" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.1284709;}i:6;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"yupe";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.14276;}i:7;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/yupe/YupeModule.php (644)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.1427779;}i:8;a:4:{i:0;s:285:"Serving "Yii.CUrlManager.rules" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LangUrlManager.php (59)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (36)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.146698;}i:9;a:4:{i:0;s:86:"Loading "debug" application component
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.14855;}i:10;a:4:{i:0;s:282:"Loading "log" application component
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (279)
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/Yii2DebugPanel.php (111)
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/panels/Yii2LogPanel.php (24)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.172174;}i:11;a:4:{i:0;s:267:"Loading "request" application component
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/Yii2Debug.php (294)
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/Yii2Debug.php (167)
+in /home/vagrant/Code/yupe/vendor/zhuravljov/yii2-debug/Yii2Debug.php (115)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.185286;}i:12;a:4:{i:0;s:341:"Loading "securityManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.191201;}i:13;a:4:{i:0;s:340:"Loading "statePersister" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.1930399;}i:14;a:4:{i:0;s:386:"Serving "Yii.CStatePersister./home/vagrant/Code/yupe/protected/runtime/state.bin" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (84)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (50)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.2079351;}i:15;a:4:{i:0;s:282:"Loading "user" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.21035;}i:16;a:4:{i:0;s:285:"Loading "session" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (114)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/urlManager/LanguageBehavior.php (95)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.2181671;}i:17;a:4:{i:0;s:187:"Loading "bootstrap" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (72)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.2451241;}i:18;a:4:{i:0;s:321:"Loading "clientScript" application component
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/components/Booster.php (420)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/components/Booster.php (212)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (72)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.2533021;}i:19;a:4:{i:0;s:314:"Loading "assetManager" application component
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/components/Booster.php (413)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/components/packages.php (14)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/components/Booster.php (260)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.259829;}i:20;a:4:{i:0;s:186:"Loading "messages" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (75)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.273834;}i:21;a:4:{i:0;s:190:"Loading "errorHandler" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (78)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.285145;}i:22;a:4:{i:0;s:190:"Loading "eventManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (81)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.290251;}i:23;a:4:{i:0;s:104:"Running filter yupe\filters\YBackAccessControl.filter()
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:31:"system.web.filters.CFilterChain";i:3;d:1453800082.328939;}i:24;a:4:{i:0;s:187:"Loading "migrator" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.340543;}i:25;a:4:{i:0;s:322:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:yupe_migrations" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (42)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/BackController.php (104)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.3706961;}i:26;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.3806181;}i:27;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.380636;}i:28;a:4:{i:0;s:183:"Loading "moduleManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.3854179;}i:29;a:4:{i:0;s:243:"Loading "blog" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.387733;}i:30;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='blog', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.390276;}i:31;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"blog";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.3950951;}i:32;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (274)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.395117;}i:33;a:4:{i:0;s:247:"Loading "callback" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.3995769;}i:34;a:4:{i:0;s:490:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='callback', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.402348;}i:35;a:4:{i:0;s:579:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"callback";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.4076991;}i:36;a:4:{i:0;s:270:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (210)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4077189;}i:37;a:4:{i:0;s:247:"Loading "category" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.4124739;}i:38;a:4:{i:0;s:490:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='category', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.415144;}i:39;a:4:{i:0;s:579:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"category";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.4195931;}i:40;a:4:{i:0;s:270:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/category/CategoryModule.php (182)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4196129;}i:41;a:4:{i:0;s:246:"Loading "comment" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.4240699;}i:42;a:4:{i:0;s:487:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='comment', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.454797;}i:43;a:4:{i:0;s:576:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"comment";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.4590299;}i:44;a:4:{i:0;s:268:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (250)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.459049;}i:45;a:4:{i:0;s:251:"Loading "contentblock" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.4641471;}i:46;a:4:{i:0;s:501:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='contentblock', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4673491;}i:47;a:4:{i:0;s:591:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:12:"contentblock";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.471961;}i:48;a:4:{i:0;s:277:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/contentblock/ContentBlockModule.php (99)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.471981;}i:49;a:4:{i:0;s:249:"Loading "dictionary" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.4768441;}i:50;a:4:{i:0;s:496:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='dictionary', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4795461;}i:51;a:4:{i:0;s:586:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:10:"dictionary";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.4840961;}i:52;a:4:{i:0;s:274:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/dictionary/DictionaryModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4841161;}i:53;a:4:{i:0;s:247:"Loading "feedback" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.488641;}i:54;a:4:{i:0;s:490:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='feedback', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.491195;}i:55;a:4:{i:0;s:579:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"feedback";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.4968929;}i:56;a:4:{i:0;s:270:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (345)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.4969151;}i:57;a:4:{i:0;s:247:"Loading "homepage" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5017121;}i:58;a:4:{i:0;s:490:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='homepage', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.504271;}i:59;a:4:{i:0;s:579:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:8:"homepage";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.508604;}i:60;a:4:{i:0;s:270:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/homepage/HomepageModule.php (222)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5086279;}i:61;a:4:{i:0;s:244:"Loading "image" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.513381;}i:62;a:4:{i:0;s:481:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='image', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5159121;}i:63;a:4:{i:0;s:570:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:5:"image";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.5203471;}i:64;a:4:{i:0;s:264:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/image/ImageModule.php (298)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5203669;}i:65;a:4:{i:0;s:243:"Loading "mail" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5243821;}i:66;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='mail', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5271311;}i:67;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"mail";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.531636;}i:68;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/mail/MailModule.php (180)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5316579;}i:69;a:4:{i:0;s:243:"Loading "menu" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5367401;}i:70;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='menu', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.539273;}i:71;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"menu";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.5436311;}i:72;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/menu/MenuModule.php (146)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5436511;}i:73;a:4:{i:0;s:243:"Loading "news" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5479939;}i:74;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='news', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5504191;}i:75;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"news";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.554719;}i:76;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/news/NewsModule.php (301)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.554739;}i:77;a:4:{i:0;s:243:"Loading "page" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.559725;}i:78;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='page', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.562324;}i:79;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"page";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.5664411;}i:80;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/page/PageModule.php (130)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5664611;}i:81;a:4:{i:0;s:246:"Loading "sitemap" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5705941;}i:82;a:4:{i:0;s:486:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='sitemap', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.572942;}i:83;a:4:{i:0;s:575:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:7:"sitemap";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.5769529;}i:84;a:4:{i:0;s:267:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/sitemap/SitemapModule.php (98)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5769689;}i:85;a:4:{i:0;s:243:"Loading "user" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.5812559;}i:86;a:4:{i:0;s:478:"Querying SQL: 
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    . Bound with :module_id='user', :type=1
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.583689;}i:87;a:4:{i:0;s:567:"Serving "yii:dbquery:fetchAll:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:
+                    SELECT param_name, param_value
+                        FROM yupe_yupe_settings
+                        WHERE module_id = :module_id AND type = :type
+                    :a:2:{s:10:":module_id";s:4:"user";s:5:":type";i:1;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.5884011;}i:88;a:4:{i:0;s:262:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1042)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/WebModule.php (1014)
+in /home/vagrant/Code/yupe/protected/modules/user/UserModule.php (346)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.5884199;}i:89;a:4:{i:0;s:244:"Loading "debug" module
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (87)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:19:"system.base.CModule";i:3;d:1453800082.592881;}i:90;a:4:{i:0;s:268:"Serving "YupeModulesNavigation-ru" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.6408701;}i:91;a:4:{i:0;s:182:"Loading "themeManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.640907;}i:92;a:4:{i:0;s:182:"Loading "viewRenderer" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.6476221;}i:93;a:4:{i:0;s:262:"Loading "widgetFactory" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (14)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)
+in /home/vagrant/Code/yupe/public/index.php (39)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.767688;}i:94;a:4:{i:0;s:256:"UserToBlog.count()
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (43)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.8168709;}i:95;a:4:{i:0;s:340:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{blog_user_to_blog}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (43)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.829102;}i:96;a:4:{i:0;s:346:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_user_to_blog` `t` WHERE status = :status. Bound with :status=4
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (43)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.8291919;}i:97;a:4:{i:0;s:317:"Loading "uploadManager" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/FileUploadBehavior.php (83)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/ImageUploadBehavior.php (52)
+in /home/vagrant/Code/yupe/protected/modules/yupe/models/YModel.php (38)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.8704519;}i:98;a:4:{i:0;s:393:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{blog_post}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/FileUploadBehavior.php (183)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/FileUploadBehavior.php (85)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/ImageUploadBehavior.php (52)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.8758011;}i:99;a:4:{i:0;s:288:"Loading "thumbnailer" application component
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/behaviors/ImageUploadBehavior.php (54)
+in /home/vagrant/Code/yupe/protected/modules/yupe/models/YModel.php (38)
+in /home/vagrant/Code/yupe/protected/modules/blog/models/Post.php (108)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800082.8758619;}i:100;a:4:{i:0;s:250:"Post.count()
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (66)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.884192;}i:101;a:4:{i:0;s:338:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE status = :status. Bound with :status=3
+in /home/vagrant/Code/yupe/protected/modules/blog/BlogModule.php (66)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.8842821;}i:102;a:4:{i:0;s:340:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{callback}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (100)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.9125249;}i:103;a:4:{i:0;s:263:"Callback.count()
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (100)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.912571;}i:104;a:4:{i:0;s:346:"Querying SQL: SELECT COUNT(*) FROM `yupe_callback` `t` WHERE status = :status. Bound with :status=0
+in /home/vagrant/Code/yupe/protected/modules/callback/CallbackModule.php (100)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9126461;}i:105;a:4:{i:0;s:345:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{comment_comment}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (156)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.921123;}i:106;a:4:{i:0;s:260:"Comment.count()
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (156)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.9211619;}i:107;a:4:{i:0;s:353:"Querying SQL: SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0
+in /home/vagrant/Code/yupe/protected/modules/comment/CommentModule.php (156)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9212251;}i:108;a:4:{i:0;s:349:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{feedback_feedback}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (205)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.941186;}i:109;a:4:{i:0;s:263:"FeedBack.count()
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (205)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.941257;}i:110;a:4:{i:0;s:355:"Querying SQL: SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE status = :status. Bound with :status=0
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (205)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9413359;}i:111;a:4:{i:0;s:437:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE status = :status:a:1:{s:7:":status";i:0;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (205)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.9441471;}i:112;a:4:{i:0;s:274:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/FeedbackModule.php (205)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/controllers/BackendController.php (82)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.944165;}i:113;a:4:{i:0;s:268:"Post.count()
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.9657819;}i:114;a:4:{i:0;s:367:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time. Bound with :time=1453713682
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9658689;}i:115;a:4:{i:0;s:446:"Saving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time:a:1:{s:5:":time";i:1453713682;}" to cache
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.9668341;}i:116;a:4:{i:0;s:268:"Post.count()
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.9742861;}i:117;a:4:{i:0;s:311:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_post` `t`
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.974349;}i:118;a:4:{i:0;s:397:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_blog_post` `t`:a:0:{}" from cache
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.9774089;}i:119;a:4:{i:0;s:283:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9774311;}i:120;a:4:{i:0;s:268:"Post.count()
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800082.977474;}i:121;a:4:{i:0;s:358:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE t.status = :status. Bound with :status=3
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9775431;}i:122;a:4:{i:0;s:440:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE t.status = :status:a:1:{s:7:":status";i:3;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800082.980633;}i:123;a:4:{i:0;s:283:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800082.9806509;}i:124;a:4:{i:0;s:283:"Post.count()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/views/panel-stat.php (42)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0107329;}i:125;a:4:{i:0;s:326:"Querying SQL: SELECT COUNT(*) FROM `yupe_blog_post` `t`
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/views/panel-stat.php (42)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.010797;}i:126;a:4:{i:0;s:285:"Post.findAll()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/views/panel-stat.php (42)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0112579;}i:127;a:4:{i:0;s:344:"Querying SQL: SELECT * FROM `yupe_blog_post` `t` ORDER BY id DESC LIMIT 5
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/views/panel-stat.php (42)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.011308;}i:128;a:4:{i:0;s:309:"Loading "coreMessages" application component
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (244)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/views/panel-stat.php (42)
+in /home/vagrant/Code/yupe/protected/modules/blog/widgets/PanelStatWidget.php (27)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800083.038655;}i:129;a:4:{i:0;s:281:"Comment.count()
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (27)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0517981;}i:130;a:4:{i:0;s:398:"Querying SQL: SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1. Bound with :time=1453713683
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (27)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0518849;}i:131;a:4:{i:0;s:477:"Saving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1:a:1:{s:5:":time";i:1453713683;}" to cache
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (27)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.052953;}i:132;a:4:{i:0;s:281:"Comment.count()
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (29)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.060281;}i:133;a:4:{i:0;s:344:"Querying SQL: SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (29)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.060343;}i:134;a:4:{i:0;s:430:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1:a:0:{}" from cache
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (29)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.0634179;}i:135;a:4:{i:0;s:293:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (29)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0634401;}i:136;a:4:{i:0;s:281:"Comment.count()
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (30)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.063489;}i:137;a:4:{i:0;s:374:"Querying SQL: SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (30)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.06357;}i:138;a:4:{i:0;s:456:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status:a:1:{s:7:":status";i:0;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (30)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.066416;}i:139;a:4:{i:0;s:293:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/PanelCommentStatWidget.php (30)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0664361;}i:140;a:4:{i:0;s:289:"Comment.count()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/views/panel-stat.php (36)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0740211;}i:141;a:4:{i:0;s:352:"Querying SQL: SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/views/panel-stat.php (36)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0741019;}i:142;a:4:{i:0;s:291:"Comment.findAll()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/views/panel-stat.php (36)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.074595;}i:143;a:4:{i:0;s:370:"Querying SQL: SELECT * FROM `yupe_comment_comment` `t` WHERE level <> 1 ORDER BY id DESC LIMIT 5
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/comment/widgets/views/panel-stat.php (36)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0746591;}i:144;a:4:{i:0;s:284:"FeedBack.count()
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0815561;}i:145;a:4:{i:0;s:387:"Querying SQL: SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time. Bound with :time=1453713683
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.08165;}i:146;a:4:{i:0;s:466:"Saving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time:a:1:{s:5:":time";i:1453713683;}" to cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.083261;}i:147;a:4:{i:0;s:284:"FeedBack.count()
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0904219;}i:148;a:4:{i:0;s:331:"Querying SQL: SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0904839;}i:149;a:4:{i:0;s:417:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`:a:0:{}" from cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.09343;}i:150;a:4:{i:0;s:295:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0934479;}i:151;a:4:{i:0;s:284:"FeedBack.count()
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.0934851;}i:152;a:4:{i:0;s:376:"Querying SQL: SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE status = :status. Bound with :status=0
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0935459;}i:153;a:4:{i:0;s:458:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE status = :status:a:1:{s:7:":status";i:0;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.096616;}i:154;a:4:{i:0;s:295:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/PanelFeedbackStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.0966401;}i:155;a:4:{i:0;s:300:"FeedBack.count()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/views/panel-feedback-stat.php (35)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.103817;}i:156;a:4:{i:0;s:347:"Querying SQL: SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/views/panel-feedback-stat.php (35)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1038721;}i:157;a:4:{i:0;s:302:"FeedBack.findAll()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/views/panel-feedback-stat.php (35)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.1042931;}i:158;a:4:{i:0;s:365:"Querying SQL: SELECT * FROM `yupe_feedback_feedback` `t` ORDER BY id DESC LIMIT 5
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/feedback/widgets/views/panel-feedback-stat.php (35)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.104378;}i:159;a:4:{i:0;s:272:"User.count()
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.1153491;}i:160;a:4:{i:0;s:354:"Serving "yii:dbschemamysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:{{user_user}}" from cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1184599;}i:161;a:4:{i:0;s:395:"Querying SQL: SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW(). Bound with :time=1453713683
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.118535;}i:162;a:4:{i:0;s:474:"Saving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW():a:1:{s:5:":time";i:1453713683;}" to cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (23)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1195271;}i:163;a:4:{i:0;s:272:"User.count()
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.127439;}i:164;a:4:{i:0;s:315:"Querying SQL: SELECT COUNT(*) FROM `yupe_user_user` `t`
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1275029;}i:165;a:4:{i:0;s:401:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_user_user` `t`:a:0:{}" from cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1302919;}i:166;a:4:{i:0;s:287:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (25)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1303079;}i:167;a:4:{i:0;s:272:"User.count()
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.130342;}i:168;a:4:{i:0;s:372:"Querying SQL: SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE t.status = :user_status. Bound with :user_status=2
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1304009;}i:169;a:4:{i:0;s:455:"Serving "yii:dbquery:fetchColumn:mysql:host=127.0.0.1;port=3306;dbname=yupe:yupe:SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE t.status = :user_status:a:1:{s:12:":user_status";i:2;}" from cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1330791;}i:170;a:4:{i:0;s:287:"Query result found in cache
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/PanelUserStatWidget.php (26)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/backend/index.php (84)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.133096;}i:171;a:4:{i:0;s:283:"User.count()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/views/panel-stat.php (32)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.1412899;}i:172;a:4:{i:0;s:326:"Querying SQL: SELECT COUNT(*) FROM `yupe_user_user` `t`
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/views/panel-stat.php (32)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1413519;}i:173;a:4:{i:0;s:285:"User.findAll()
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/views/panel-stat.php (32)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.141762;}i:174;a:4:{i:0;s:344:"Querying SQL: SELECT * FROM `yupe_user_user` `t` ORDER BY id DESC LIMIT 5
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbGridView.php (68)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (234)
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/views/panel-stat.php (32)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.1418071;}i:175;a:4:{i:0;s:318:"Loading "format" application component
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (632)
+in /home/vagrant/Code/yupe/vendor/clevertech/yii-booster/src/widgets/TbExtendedGridView.php (244)
+in /home/vagrant/Code/yupe/protected/modules/user/widgets/views/panel-stat.php (32)";i:1;s:5:"trace";i:2;s:14:"system.CModule";i:3;d:1453800083.142796;}i:176;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1824529;}i:177;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.182476;}i:178;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1946051;}i:179;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.1946261;}i:180;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2108619;}i:181;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.210887;}i:182;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.221179;}i:183;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2212009;}i:184;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2327771;}i:185;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.232801;}i:186;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.245404;}i:187;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2454269;}i:188;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.257637;}i:189;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.257659;}i:190;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2692959;}i:191;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2693181;}i:192;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.280731;}i:193;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.280755;}i:194;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.288842;}i:195;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.2888651;}i:196;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3017981;}i:197;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.30182;}i:198;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3124149;}i:199;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3124349;}i:200;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3233759;}i:201;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3233969;}i:202;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3356929;}i:203;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3357151;}i:204;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3498111;}i:205;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.349833;}i:206;a:4:{i:0;s:296:"Serving "__tag__getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/extensions/tagcache/TagsCache.php (58)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.3634181;}i:207;a:4:{i:0;s:280:"Serving "getMigrationHistory" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (403)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (481)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/Migrator.php (525)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.363441;}i:208;a:4:{i:0;s:275:"User.find()
+in /home/vagrant/Code/yupe/protected/modules/user/components/YWebUser.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/_view.php (10)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/shortcuts.php (13)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.3887579;}i:209;a:4:{i:0;s:439:"Querying SQL: SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1'
+in /home/vagrant/Code/yupe/protected/modules/user/components/YWebUser.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/_view.php (10)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/shortcuts.php (13)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.388859;}i:210;a:4:{i:0;s:275:"User.find()
+in /home/vagrant/Code/yupe/protected/modules/user/components/YWebUser.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/_view.php (10)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/shortcuts.php (13)";i:1;s:5:"trace";i:2;s:26:"system.db.ar.CActiveRecord";i:3;d:1453800083.4733081;}i:211;a:4:{i:0;s:439:"Querying SQL: SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1'
+in /home/vagrant/Code/yupe/protected/modules/user/components/YWebUser.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/_view.php (10)
+in /home/vagrant/Code/yupe/protected/modules/yupe/views/widgets/YShortCuts/shortcuts.php (13)";i:1;s:5:"trace";i:2;s:20:"system.db.CDbCommand";i:3;d:1453800083.473392;}i:212;a:4:{i:0;s:303:"Serving "YupeModulesNavigation-ru" from cache
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/ModuleManager.php (103)
+in /home/vagrant/Code/yupe/protected/modules/yupe/widgets/YAdminPanel.php (28)
+in /home/vagrant/Code/yupe/protected/modules/yupe/components/controllers/Controller.php (157)";i:1;s:5:"trace";i:2;s:25:"system.caching.CFileCache";i:3;d:1453800083.5940671;}}}s:9:"profiling";a:3:{s:6:"memory";i:5132800;s:4:"time";d:1.6241691112518311;s:8:"messages";a:36:{i:0;a:4:{i:0;s:128:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_user_to_blog` `t` WHERE status = :status. Bound with :status=4)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8291991;}i:1;a:4:{i:0;s:126:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_user_to_blog` `t` WHERE status = :status. Bound with :status=4)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.829752;}i:2;a:4:{i:0;s:120:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE status = :status. Bound with :status=3)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8842881;}i:3;a:4:{i:0;s:118:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE status = :status. Bound with :status=3)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8849111;}i:4;a:4:{i:0;s:119:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_callback` `t` WHERE status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.912652;}i:5;a:4:{i:0;s:117:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_callback` `t` WHERE status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9131801;}i:6;a:4:{i:0;s:128:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9212301;}i:7;a:4:{i:0;s:126:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9217391;}i:8;a:4:{i:0;s:131:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time. Bound with :time=1453713682)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.966413;}i:9;a:4:{i:0;s:129:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time. Bound with :time=1453713682)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.966805;}i:10;a:4:{i:0;s:75:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0108039;}i:11;a:4:{i:0;s:73:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.011188;}i:12;a:4:{i:0;s:93:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_blog_post` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0113139;}i:13;a:4:{i:0;s:91:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_blog_post` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0114861;}i:14;a:4:{i:0;s:152:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0524371;}i:15;a:4:{i:0;s:150:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.052922;}i:16;a:4:{i:0;s:98:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.07411;}i:17;a:4:{i:0;s:96:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0745461;}i:18;a:4:{i:0;s:116:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_comment_comment` `t` WHERE level <> 1 ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0746651;}i:19;a:4:{i:0;s:114:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_comment_comment` `t` WHERE level <> 1 ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0748589;}i:20;a:4:{i:0;s:139:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0826609;}i:21;a:4:{i:0;s:137:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0832031;}i:22;a:4:{i:0;s:83:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.103879;}i:23;a:4:{i:0;s:81:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1042399;}i:24;a:4:{i:0;s:101:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_feedback_feedback` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1043849;}i:25;a:4:{i:0;s:99:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_feedback_feedback` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.104558;}i:26;a:4:{i:0;s:155:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW(). Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.11906;}i:27;a:4:{i:0;s:153:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW(). Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.119498;}i:28;a:4:{i:0;s:75:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1413591;}i:29;a:4:{i:0;s:73:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1417201;}i:30;a:4:{i:0;s:93:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.141814;}i:31;a:4:{i:0;s:91:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.142015;}i:32;a:4:{i:0;s:195:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.3888669;}i:33;a:4:{i:0;s:193:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.389411;}i:34;a:4:{i:0;s:195:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.4734001;}i:35;a:4:{i:0;s:193:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.4738779;}}}s:2:"db";a:2:{s:8:"messages";a:36:{i:0;a:4:{i:0;s:128:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_user_to_blog` `t` WHERE status = :status. Bound with :status=4)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8291991;}i:1;a:4:{i:0;s:126:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_user_to_blog` `t` WHERE status = :status. Bound with :status=4)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.829752;}i:2;a:4:{i:0;s:120:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE status = :status. Bound with :status=3)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8842881;}i:3;a:4:{i:0;s:118:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE status = :status. Bound with :status=3)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.8849111;}i:4;a:4:{i:0;s:119:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_callback` `t` WHERE status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.912652;}i:5;a:4:{i:0;s:117:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_callback` `t` WHERE status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9131801;}i:6;a:4:{i:0;s:128:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9212301;}i:7;a:4:{i:0;s:126:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE t.status = :status. Bound with :status=0)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.9217391;}i:8;a:4:{i:0;s:131:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time. Bound with :time=1453713682)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.966413;}i:9;a:4:{i:0;s:129:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t` WHERE create_time >= :time. Bound with :time=1453713682)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800082.966805;}i:10;a:4:{i:0;s:75:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0108039;}i:11;a:4:{i:0;s:73:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_blog_post` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.011188;}i:12;a:4:{i:0;s:93:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_blog_post` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0113139;}i:13;a:4:{i:0;s:91:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_blog_post` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0114861;}i:14;a:4:{i:0;s:152:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0524371;}i:15;a:4:{i:0;s:150:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE create_time >= :time AND level <> 1. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.052922;}i:16;a:4:{i:0;s:98:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.07411;}i:17;a:4:{i:0;s:96:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_comment_comment` `t` WHERE level <> 1)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0745461;}i:18;a:4:{i:0;s:116:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_comment_comment` `t` WHERE level <> 1 ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0746651;}i:19;a:4:{i:0;s:114:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_comment_comment` `t` WHERE level <> 1 ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0748589;}i:20;a:4:{i:0;s:139:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0826609;}i:21;a:4:{i:0;s:137:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t` WHERE create_time >= :time. Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.0832031;}i:22;a:4:{i:0;s:83:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.103879;}i:23;a:4:{i:0;s:81:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_feedback_feedback` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1042399;}i:24;a:4:{i:0;s:101:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_feedback_feedback` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1043849;}i:25;a:4:{i:0;s:99:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_feedback_feedback` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.104558;}i:26;a:4:{i:0;s:155:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW(). Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.11906;}i:27;a:4:{i:0;s:153:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t` WHERE create_time >= :time AND create_time < NOW(). Bound with :time=1453713683)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.119498;}i:28;a:4:{i:0;s:75:"begin:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1413591;}i:29;a:4:{i:0;s:73:"end:system.db.CDbCommand.query(SELECT COUNT(*) FROM `yupe_user_user` `t`)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.1417201;}i:30;a:4:{i:0;s:93:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.141814;}i:31;a:4:{i:0;s:91:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` ORDER BY id DESC LIMIT 5)";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.142015;}i:32;a:4:{i:0;s:195:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.3888669;}i:33;a:4:{i:0;s:193:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.389411;}i:34;a:4:{i:0;s:195:"begin:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.4734001;}i:35;a:4:{i:0;s:193:"end:system.db.CDbCommand.query(SELECT * FROM `yupe_user_user` `t` WHERE (t.status = :user_status) AND (id = :id AND access_level = :level) LIMIT 1. Bound with :user_status=1, :level=1, :id='1')";i:1;s:7:"profile";i:2;s:26:"system.db.CDbCommand.query";i:3;d:1453800083.4738779;}}s:11:"connections";a:1:{s:2:"db";a:4:{s:5:"class";s:13:"CDbConnection";s:6:"driver";s:5:"mysql";s:6:"server";s:6:"5.7.10";s:4:"info";s:135:"Uptime: 753  Threads: 1  Questions: 1746  Slow queries: 0  Opens: 477  Flush tables: 1  Open tables: 158  Queries per second avg: 2.318";}}}s:7:"summary";a:7:{s:3:"tag";s:13:"56a73a9227125";s:3:"url";s:23:"http://yupe.app/backend";s:4:"ajax";b:0;s:6:"method";s:3:"GET";s:4:"code";i:200;s:2:"ip";s:12:"192.168.10.1";s:4:"time";i:1453800083;}}
